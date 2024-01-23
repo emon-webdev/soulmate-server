@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }))
 
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Soulmate Server Is Working V-1.0 !')
+    res.send('Soulmate Server Is Working with docker V-1.0 !')
 })
 
 app.listen(port, () => {
